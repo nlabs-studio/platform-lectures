@@ -12,7 +12,7 @@ The string begins with the tab name, for non web application purposes, this may 
 
 The initial form is always SHAPE_TYPE:LABEL. The LABEL is a base64 encoding. The properties which follow are numerics exclusively relative to the shape type. For an example, a cube will have less properties than a cylinder and indeed the cylinder lesser properties than a stadium frustum.
 
-The '#' delimitor is used to split shape types 
+The '#' delimitor is used to split shape types. The @ delimitor splits the shapes from the scaling constants. The order of these scales is mapped on a 1-to-1 basic with the geometric shapes. These scaling constants allow subtractive manipulation to represent more complex volumes. This option persists for power users whom require this cutting edge precision.
 
 # Metric Used
 
