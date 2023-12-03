@@ -1,4 +1,4 @@
-# File Data Format Web Application IO
+# File Data Format IO
 
 The clear text file format for imports / exports into live web application is described here. Its a relatively simple format at this moment given that it need only accommodate some basic volumetric inputs.
 
