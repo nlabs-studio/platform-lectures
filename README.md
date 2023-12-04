@@ -14,7 +14,7 @@ The initial form is always SHAPE_TYPE:LABEL. The LABEL is a base64 encoding. The
 
 The '#' delimitor is used to split shape types. The @ delimitor splits the shapes from the scaling constants. The order of these scales is mapped on a 1-to-1 basis with the geometric shapes. These scaling constants allow subtractive manipulation to represent more complex volumes. This option persists for power users whom require this cutting edge precision.
 
-Each scaling constant is separated by the '=' delimitor. Its data type is that of a floating point and its interval is equal to [-1, 1]. De fault, all objects have a scale set to 1.
+Each scaling constant is separated by the '=' delimitor. Its data type is that of a floating point and its interval is equal to [-1, 1]. By default, all objects have a scale set to 1.
 
 # Metric Used
 
