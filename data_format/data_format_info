@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-Collection of lecture slides to support the autonomous quality control protocol evident on volume.cc
-=======
 # File Data Format IO
 
 The clear text file format for imports / exports into live web application is described here. Its a relatively simple format at this moment given that it need only accommodate some basic volumetric inputs.
@@ -30,8 +27,3 @@ The numeric metric used in the file data format is always the millimeter. The ap
 \#  - splits objects of volume recipe list
 @  - splits scaling constants from objects
 ~ - (reserved) splits multiple tabs iff export is a workspace export
-
-# List of Geometric Shapes
-
-Current verifiable list may be found here: https://github.com/volume-cc/geometric-list/
->>>>>>> branch-from-repo2
